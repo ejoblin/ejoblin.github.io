@@ -136,19 +136,9 @@ nav-links a{
   padding: 10vh 0 15vh;
   text-align: center;
 }
-
 .footer-logo img {
   width: 50px;
 }
-
-.footer-nav li {
-  display: inline-block;
-  margin: 2em 1em 0;
-}
-.footer-nav a {
-  color: #ccc;
-}
-
 .footer h3 {
   color: #fff;
   padding-top: 1.5em;
@@ -156,6 +146,13 @@ nav-links a{
 }
 .footer h3 span {
   color: #aaa;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
+.footer-nav a {
+  color: #ccc;
 }
 
 /* HERO STYLES */
