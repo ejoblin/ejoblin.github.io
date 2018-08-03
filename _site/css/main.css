@@ -158,6 +158,12 @@ h2 ~ p {
   color: #fff;
 }
 
+/* MOBILE MENU */
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
+
 /* DROPDOWN STYLES */
 .dropdown {
   position: relative;
@@ -232,13 +238,6 @@ h2 ~ p {
   background-color: rgba(0,0,0,0.1);
   color: #333;
 }
-
-/* MOBILE MENU */
-.mobile-menu-check,
-.show-mobile-menu {
-  display: none;
-}
-
 /* HIDE IN THE FOOTER */
 .footer .dropdown:hover .drop-menu,
 .footer .drop-trigger:after {
@@ -641,12 +640,11 @@ h2 ~ p {
   .header-logo {
     left: auto;
   }
-
   /* MOBILE MENU */
   .show-mobile-menu {
     display: block;
     float: right;
-    margin-top: 1.5vh
+    margin-top: 1.5vh;
     padding: 1.5em;
     position: relative;
   }
